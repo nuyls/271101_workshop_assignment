@@ -32,8 +32,13 @@ while True:
                     cx2 = cx  
                 if id == 1:
                     id1 = int(id)
-                    cx1 = cx 
-            if cx2 > cx1:
+                    cx1 = cx
+                 if id == 0:
+                    id0 = int(id)
+                    cx0 = cx    
+            if  cx1 > cx0:
+                Nfing = 1         
+            elif cx2 > cx1:
                 Nfing = 2          
             elif cx3 > cx2:
                 Nfing = 3        
