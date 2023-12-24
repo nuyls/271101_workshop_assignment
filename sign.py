@@ -75,7 +75,7 @@ while True:
                 (255, 0, 0), 3)
     cv2.putText(img, str(str(myname)), (500, 450), cv2.FONT_HERSHEY_PLAIN, 3,
                 (255, 0, 0), 3)
-    cv2.putText(img, str(str(Finger)), (50, 400), cv2.FONT_HERSHEY_PLAIN, 3,
+    cv2.putText(img, str(str(Finger)), (50, 400), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (255, 0, 0), 3)
     cv2.imshow("Image", img)
     cv2.waitKey(1)
